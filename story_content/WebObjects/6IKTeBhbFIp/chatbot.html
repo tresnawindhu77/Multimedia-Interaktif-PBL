@@ -1,0 +1,110 @@
+<flowise-fullchatbot></flowise-fullchatbot>
+<script type="module">
+  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+  Chatbot.initFull({
+    chatflowid: "b8f19103-ecb0-43ae-bbb4-3e83e8c2fa66",
+    apiHost: "https://cloud.flowiseai.com",
+    chatflowConfig: {
+      /* Chatflow Config */
+    },
+    observersConfig: {
+      /* Observers Config */
+    },
+    theme: {
+      button: {
+        backgroundColor: "#3B81F6",
+        right: 20,
+        bottom: 20,
+        size: 48,
+        dragAndDrop: true,
+        iconColor: "white",
+        customIconSrc:
+          "https://1.bp.blogspot.com/--QiGJQnH_BE/WYg8riN8HdI/AAAAAAAAT_E/cNJkhUF7AyAB_358bAmApzVaUHGldVFuwCLcBGAs/s1600/LOGO%2BSMAN%2B1%2BTEJAKULA.png",
+        autoWindowOpen: {
+          autoOpen: true,
+          openDelay: 2,
+          autoOpenOnMobile: false,
+        },
+      },
+      tooltip: {
+        showTooltip: true,
+        tooltipMessage: "Hi There 👋!",
+        tooltipBackgroundColor: "black",
+        tooltipTextColor: "white",
+        tooltipFontSize: 16,
+      },
+      disclaimer: {
+        title: "Perhatian",
+        message: "Gunakan asisten chat AI pembelajaran ini dengan bijak!",
+        textColor: "black",
+        buttonColor: "#3b82f6",
+        buttonText: "Mulai Bertanya",
+        buttonTextColor: "white",
+        blurredBackgroundColor: "rgba(0, 0, 0, 0.4)",
+        backgroundColor: "white",
+      },
+      customCSS: ``,
+      chatWindow: {
+        showTitle: true,
+        showAgentMessages: true,
+        title: "Asisten Pembelajaran Informatika",
+        titleAvatarSrc:
+          "https://1.bp.blogspot.com/--QiGJQnH_BE/WYg8riN8HdI/AAAAAAAAT_E/cNJkhUF7AyAB_358bAmApzVaUHGldVFuwCLcBGAs/s1600/LOGO%2BSMAN%2B1%2BTEJAKULA.png",
+        welcomeMessage:
+          "Hallo, apa yang bisa saya bantu terkait algoritma dan pemrograman?",
+        errorMessage: "This is a custom error message",
+        backgroundColor: "#ffffff",
+        backgroundImage: "enter image path or link",
+        height: "100%",
+        width: "100%",
+        fontSize: 16,
+        starterPrompts: ["Apa itu algoritma?", "apa itu pemrograman?"],
+        starterPromptFontSize: 15,
+        clearChatOnReload: false,
+        sourceDocsTitle: "Sources:",
+        renderHTML: true,
+        botMessage: {
+          backgroundColor: "#f7f8ff",
+          textColor: "#303235",
+          showAvatar: true,
+          avatarSrc:
+            "https://png.pngtree.com/recommend-works/png-clipart/20250825/ourmid/pngtree-male-teacher-cartoon-png-image_17062752.webp",
+        },
+        userMessage: {
+          backgroundColor: "#3B81F6",
+          textColor: "#ffffff",
+          showAvatar: true,
+          avatarSrc:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvI6BM5ybhtW82XYPvdv6Jzdvo-rDNX4359ZxTgHTsbWQ-inB0euSLPDmf&s=10",
+        },
+        textInput: {
+          placeholder: "Ketik pertanyaanmu di sini",
+          backgroundColor: "#ffffff",
+          textColor: "#303235",
+          sendButtonColor: "#3B81F6",
+          maxChars: 50,
+          maxCharsWarningMessage:
+            "You exceeded the characters limit. Please input less than 50 characters.",
+          autoFocus: true,
+          sendMessageSound: true,
+          sendSoundLocation: "send_message.mp3",
+          receiveMessageSound: true,
+          receiveSoundLocation: "receive_message.mp3",
+        },
+        feedback: {
+          color: "#303235",
+        },
+        dateTimeToggle: {
+          date: true,
+          time: true,
+        },
+        footer: {
+          textColor: "#303235",
+          text: "Selamat belajar!",
+          company: "",
+          // companyLink: "https://flowiseai.com",
+        },
+      },
+    },
+  });
+</script>
